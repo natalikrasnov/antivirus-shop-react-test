@@ -1,0 +1,29 @@
+.container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    z-index: 200;
+
+    .form{
+        background: white;
+        margin: auto;
+        width: max-content;
+        height: 80vh;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 200;
+       
+        .close-button {
+            width: fit-content;
+            font-weight: 900;
+        }
+         h3 {
+           align-self: center;
+        }
+    }
+}

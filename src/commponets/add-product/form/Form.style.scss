@@ -1,0 +1,18 @@
+ .form-add-product {
+     height: inherit;
+     width: auto;
+     display: flex;
+     align-items: baseline;
+     flex-direction: column;
+     justify-content: space-around;
+
+     .button-submit {
+         align-self: center;
+
+     }
+ }
+
+ .img-prev {
+     height: 200px;
+     width: 250px;
+ }
